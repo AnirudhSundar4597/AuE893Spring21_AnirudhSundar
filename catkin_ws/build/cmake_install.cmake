@@ -131,7 +131,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/anirudh/git_ws/AuE893Spring21_AnirudhSundar/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/anirudh/git_ws/AuE893Spring21_AnirudhSundar/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/cmake_install.cmake")
   include("/home/anirudh/git_ws/AuE893Spring21_AnirudhSundar/catkin_ws/build/assignment2_turtlesim/cmake_install.cmake")
+  include("/home/anirudh/git_ws/AuE893Spring21_AnirudhSundar/catkin_ws/build/assignment3_turtlebot3/cmake_install.cmake")
+  include("/home/anirudh/git_ws/AuE893Spring21_AnirudhSundar/catkin_ws/build/turtlebot3_simulations/turtlebot3_fake/cmake_install.cmake")
+  include("/home/anirudh/git_ws/AuE893Spring21_AnirudhSundar/catkin_ws/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
 
 endif()
 

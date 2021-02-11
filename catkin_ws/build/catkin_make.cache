@@ -1,2 +1,2 @@
-assignment2_turtlesim
+assignment2_turtlesim:assignment3_turtlebot3:turtlebot3_simulations/turtlebot3_fake:turtlebot3_simulations/turtlebot3_gazebo:turtlebot3_simulations/turtlebot3_simulations
 -DCATKIN_DEVEL_PREFIX=/home/anirudh/git_ws/AuE893Spring21_AnirudhSundar/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/anirudh/git_ws/AuE893Spring21_AnirudhSundar/catkin_ws/install -G Unix Makefiles
