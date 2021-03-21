@@ -1,0 +1,8 @@
+prefix=/home/anirudh/git_ws/AuE893Spring21_AnirudhSundar/catkin_ws/devel_isolated/assigment2_turtlesim
+
+Name: assigment2_turtlesim
+Description: Description of assigment2_turtlesim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

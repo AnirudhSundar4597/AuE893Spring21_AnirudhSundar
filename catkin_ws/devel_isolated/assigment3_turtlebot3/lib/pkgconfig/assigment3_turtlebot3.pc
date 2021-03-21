@@ -1,0 +1,8 @@
+prefix=/home/anirudh/git_ws/AuE893Spring21_AnirudhSundar/catkin_ws/devel_isolated/assigment3_turtlebot3
+
+Name: assigment3_turtlebot3
+Description: Description of assigment3_turtlebot3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
