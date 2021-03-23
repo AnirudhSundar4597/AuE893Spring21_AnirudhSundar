@@ -61,6 +61,7 @@ all: AuE893Spring21_AtefEmran/src/assigment2_turtlesim/all
 all: AuE893Spring21_AtefEmran/src/assigment3_turtlebot3/all
 all: assignment2_turtlesim/all
 all: AuE893Spring21_AtefEmran/src/assignment5_wallfollowingandobstacleavoidance/all
+all: assignment7_slam/all
 all: assignment3_turtlebot3/all
 all: assignment4_turtlebot3/all
 all: vision_opencv/cv_bridge/all
@@ -80,6 +81,7 @@ preinstall: AuE893Spring21_AtefEmran/src/assigment2_turtlesim/preinstall
 preinstall: AuE893Spring21_AtefEmran/src/assigment3_turtlebot3/preinstall
 preinstall: assignment2_turtlesim/preinstall
 preinstall: AuE893Spring21_AtefEmran/src/assignment5_wallfollowingandobstacleavoidance/preinstall
+preinstall: assignment7_slam/preinstall
 preinstall: assignment3_turtlebot3/preinstall
 preinstall: assignment4_turtlebot3/preinstall
 preinstall: vision_opencv/cv_bridge/preinstall
@@ -104,6 +106,7 @@ clean: AuE893Spring21_AtefEmran/src/assigment2_turtlesim/clean
 clean: AuE893Spring21_AtefEmran/src/assigment3_turtlebot3/clean
 clean: assignment2_turtlesim/clean
 clean: AuE893Spring21_AtefEmran/src/assignment5_wallfollowingandobstacleavoidance/clean
+clean: assignment7_slam/clean
 clean: assignment3_turtlebot3/clean
 clean: assignment4_turtlebot3/clean
 clean: vision_opencv/cv_bridge/clean
@@ -261,6 +264,24 @@ assignment6_trackingandfollowing/preinstall:
 assignment6_trackingandfollowing/clean:
 
 .PHONY : assignment6_trackingandfollowing/clean
+
+#=============================================================================
+# Directory level rules for directory assignment7_slam
+
+# Recursive "all" directory target.
+assignment7_slam/all:
+
+.PHONY : assignment7_slam/all
+
+# Recursive "preinstall" directory target.
+assignment7_slam/preinstall:
+
+.PHONY : assignment7_slam/preinstall
+
+# Recursive "clean" directory target.
+assignment7_slam/clean:
+
+.PHONY : assignment7_slam/clean
 
 #=============================================================================
 # Directory level rules for directory gtest

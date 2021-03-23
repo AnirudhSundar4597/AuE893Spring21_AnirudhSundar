@@ -1,8 +1,0 @@
-prefix=/home/anirudh/git_ws/AuE893Spring21_AnirudhSundar/catkin_ws/install_isolated
-
-Name: assignment4_turtlebot3
-Description: Description of assignment4_turtlebot3
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
