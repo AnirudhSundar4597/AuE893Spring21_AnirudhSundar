@@ -24,3 +24,6 @@ the overall environment.
 
 3. Although performed in a simple environment, the H3D lidar will perform better in a real world environment and generate more accurate maps. From gazebo, it was clear that the H3D lidar generates maps
 in a faster and accurate manner, as compared to the default lidar. Features such as wall edges are represented better in the H3D generated map.
+
+
+PS: As usual this assignment was completed by Atef and I. I don't really care how the grading is done, but I just want to put it out there because the scene with our team is absolutely apathetic. It's just impossible for me to think of the group as a set of 'graduate' students.
