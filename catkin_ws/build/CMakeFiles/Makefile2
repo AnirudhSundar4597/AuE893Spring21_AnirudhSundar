@@ -64,6 +64,7 @@ all: AuE893Spring21_AtefEmran/src/assignment5_wallfollowingandobstacleavoidance/
 all: assignment7_slam/all
 all: assignment3_turtlebot3/all
 all: assignment4_turtlebot3/all
+all: assignment5_wfoa/all
 all: vision_opencv/cv_bridge/all
 all: assignment6_trackingandfollowing/all
 all: vision_opencv/image_geometry/all
@@ -84,6 +85,7 @@ preinstall: AuE893Spring21_AtefEmran/src/assignment5_wallfollowingandobstacleavo
 preinstall: assignment7_slam/preinstall
 preinstall: assignment3_turtlebot3/preinstall
 preinstall: assignment4_turtlebot3/preinstall
+preinstall: assignment5_wfoa/preinstall
 preinstall: vision_opencv/cv_bridge/preinstall
 preinstall: assignment6_trackingandfollowing/preinstall
 preinstall: vision_opencv/image_geometry/preinstall
@@ -109,6 +111,7 @@ clean: AuE893Spring21_AtefEmran/src/assignment5_wallfollowingandobstacleavoidanc
 clean: assignment7_slam/clean
 clean: assignment3_turtlebot3/clean
 clean: assignment4_turtlebot3/clean
+clean: assignment5_wfoa/clean
 clean: vision_opencv/cv_bridge/clean
 clean: assignment6_trackingandfollowing/clean
 clean: vision_opencv/image_geometry/clean
@@ -246,6 +249,24 @@ assignment4_turtlebot3/preinstall:
 assignment4_turtlebot3/clean:
 
 .PHONY : assignment4_turtlebot3/clean
+
+#=============================================================================
+# Directory level rules for directory assignment5_wfoa
+
+# Recursive "all" directory target.
+assignment5_wfoa/all:
+
+.PHONY : assignment5_wfoa/all
+
+# Recursive "preinstall" directory target.
+assignment5_wfoa/preinstall:
+
+.PHONY : assignment5_wfoa/preinstall
+
+# Recursive "clean" directory target.
+assignment5_wfoa/clean:
+
+.PHONY : assignment5_wfoa/clean
 
 #=============================================================================
 # Directory level rules for directory assignment6_trackingandfollowing

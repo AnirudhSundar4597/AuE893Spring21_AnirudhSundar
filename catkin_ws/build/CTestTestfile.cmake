@@ -15,6 +15,7 @@ subdirs("AuE893Spring21_AtefEmran/src/assignment5_wallfollowingandobstacleavoida
 subdirs("assignment7_slam")
 subdirs("assignment3_turtlebot3")
 subdirs("assignment4_turtlebot3")
+subdirs("assignment5_wfoa")
 subdirs("vision_opencv/cv_bridge")
 subdirs("assignment6_trackingandfollowing")
 subdirs("vision_opencv/image_geometry")
